@@ -55,6 +55,6 @@ retrieved_context = "\n".join([doc.page_content for doc in retrieved_docs])
 try:
     response = query_llm(user_query, retrieved_context)
     print("\nRESULT:", response)
-    print("\nSOURCE DOCUMENTS:", retrieved_docs)
+    #print("\nSOURCE DOCUMENTS:", retrieved_docs)
 except Exception as e:
     print(f"Error during query execution: {e}")

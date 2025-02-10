@@ -10,6 +10,7 @@ langchain = "*"
 langchain-community = "*"
 faiss-cpu = "*"
 pypdf = "*"
+streamlit = "*"
 
 [dev-packages]
 
